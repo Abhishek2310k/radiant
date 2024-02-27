@@ -52,6 +52,17 @@
         .hidden {
             display: none;
         }
+        .discount {
+            span {
+                width: 53px;
+                height: 20px;
+                font-size: 13px;
+                color: #074786;
+                background-color: #F2F4F7;
+                padding: 5.5px;
+                border-radius: 4px;
+            }
+        }
     }
     .col3 {
         display: flex;
@@ -81,6 +92,7 @@
             font-size: 16px;
             color: white;
             background-color: #1B88F4;
+            cursor: pointer;
         }
     }
     .index {

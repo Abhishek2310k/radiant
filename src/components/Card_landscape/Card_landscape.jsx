@@ -61,6 +61,7 @@ const Card_landscape = ({item}) => {
         </div>
         <div className='col2'>
           <div>{item.desc1_bold} {item.desc1}</div>
+          <div className='discount'>{item.off === "" ? <></> : <span>{item.off} % Off</span>}</div>
           <div className='main_highlights'>
             <h3> Main highlights</h3>
             <div>{item.desc2}</div>
