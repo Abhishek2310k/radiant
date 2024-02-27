@@ -1,0 +1,30 @@
+.comments{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #FFF4ED;
+    border-radius: 12px;
+    padding:10px;
+    // margin-top: 10px;
+    ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        li {
+            gap: 10px;
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            .rating{
+                width: 40px;
+                height: 28px;
+                color: #1B88F4;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

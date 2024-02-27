@@ -1,0 +1,78 @@
+.navbar {
+    width: 100%;
+    background-color: #212731;
+    color: #D1D6DA;
+    font-size: 14px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    .content{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        // margin-left: 15%;
+
+        .menu{
+            display: none;
+            cursor: pointer;
+        }
+        .input{
+            display: flex;
+            align-items: center;
+            border: none;
+            background-color: white;
+            color: #626E79;
+            font-size: 24px;
+            border-radius: 8px;
+            padding-left: 5px;
+            input {
+                border-radius: 8px;
+                width: 258px;
+                height: 37px;
+                border: none;
+                font-size: 24px;
+                color: #626E79;
+                &:focus {
+                    outline: none;
+                  }
+            }
+        }
+    }
+    .hidden {
+        display: none;
+    }
+    .shown {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:1013px) {
+    .navbar{
+        .content {
+            .menu {
+                display: block;
+                font-size: 32px;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:582px) {
+    .navbar {
+        .content {
+            width: 100%;
+            margin: 0 10px;
+            justify-content: center;
+        }
+
+    }
+}

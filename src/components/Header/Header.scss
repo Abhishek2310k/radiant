@@ -1,0 +1,90 @@
+
+.nav {
+    width: 70%;
+    margin-left: 15%;
+.nav_heading {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #2c384a;
+    display: flex;
+    h1 {
+        padding: 0;
+        margin: 0;
+    }
+    margin-bottom: 0;
+  }
+  .hr {
+    background: #e1e4e6;
+    height: 1px;
+    border: none;
+    margin: 0 0;
+  }
+  .nav_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 10px 0;
+  }
+  .nav_details select {
+    color: #4b5665;
+  }
+  .nav_detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .nav_detail p {
+    padding-right: 10px;
+  }
+  .breadcrumbs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    padding-top: 20px;
+    justify-content: flex-start;
+    .button_nav{
+      padding: 10px;
+      width: 150px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+
+  .nav_detail p,
+  .nav_details_two p,
+  .breadcrumbs p {
+    color: #4b5665;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:704px) {
+  .nav {
+    .nav_details_two {
+      overflow-x: scroll;
+    }
+    .nav_heading{
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (max-width:508px) {
+  .nav {
+    .breadcrumbs {
+      display: none;
+    }
+    .nav_heading{
+      font-size: 18x;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+    height: 452px;
+    background-color: #212731;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    .part{
+        padding-top: 100px;
+        gap: 20px;
+        h3{
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+        span{
+            font-size: 13px;
+        }
+        display: flex;
+        flex-direction: column;
+        .right{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
